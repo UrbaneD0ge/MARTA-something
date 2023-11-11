@@ -1,5 +1,5 @@
 <script>
-  import Map from '../lib/Map.svelte';
+  import LeafletMap from 'svelte-leafletjs';
   export let data;
   let arrivals = data.RailArrivals;
 </script>
@@ -28,19 +28,14 @@
       <br />
     {/each}
   </div>
-  <div>
-    <Map />
-  </div>
+  <LeafletMap />
+  <div />
 </div>
 
 <style>
   #container {
     display: flex;
     justify-content: space-between;
-  }
-  #map {
-    height: 40svw;
-    width: 50svw;
   }
   .arrs {
     border: 1px solid black;
