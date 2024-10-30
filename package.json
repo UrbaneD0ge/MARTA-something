@@ -16,6 +16,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"leaflet": "^1.9.4"
+		"leaflet": "^1.9.4",
+		"svelte-leafletjs": "^1.2.0"
 	}
 }
