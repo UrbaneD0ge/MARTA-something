@@ -23,7 +23,7 @@
           <p>X: {arrival.VEHICLELONGITUDE}</p>
           <p>Y: {arrival.VEHICLELATITUDE}</p>
           <p>Delay: {arrival.DELAY}</p> -->
-          <p>TripID: {arrival.TRIP_ID}</p>
+          <!-- <p>TrainID: {arrival.TRAIN_ID}</p> -->
         </div>
         <br />
         {/if}

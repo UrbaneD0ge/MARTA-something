@@ -8,7 +8,7 @@ export async function load({}) {
   // perform fetech
 
   // Fetch data from API
-  const res = await fetch(`https://developerservices.itsmarta.com:18096/itsmarta\r\n/railrealtimearrivals/developerservices/traindata?apiKey=${apiKey}`);
+  const res = await fetch(`https://developerservices.itsmarta.com:18096/itsmarta/railrealtimearrivals/developerservices/traindata?apiKey=${apiKey}`);
 
   const data = await res.json();
 
