@@ -1,38 +1,39 @@
-# create-svelte
+# MARTA Something
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)    
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Description
 
-## Creating a project
+##### An exploration of the MARTA RealTime Rail API
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Table of Contents
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+### Installation
 
-## Developing
+##### Currently run from localhost using MARTA API key as envionmental variable.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### Usage
 
-```bash
-npm run dev
+##### A successful page load should render next vehicle arrival times for all lines.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+### License
 
-## Building
+##### MIT
 
-To create a production version of your app:
+### Contributing
 
-```bash
-npm run build
-```
+##### Kip Dunlap
 
-You can preview the production build with `npm run preview`.
+### Tests
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+##### N/A
+
+### Questions
+
+##### Send questions to Kip@KipDunlap.me
